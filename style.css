@@ -994,7 +994,7 @@ ul {
 ---------------------------------------*/
 .rs-toolbar {
   padding: 4px 0 5px;
-  background-color: #111111;
+  background-color: #074f8f;
 }
 .rs-toolbar .rs-toolbar-left .welcome-message {
   font-size: 14px;
@@ -1144,7 +1144,7 @@ ul {
   color: #074f8f !important;
 }
 .home1 .menu-area {
-  background: #212121;
+  background-color: #1a4078;
 }
 .home1 .searce-box {
   position: absolute;
@@ -1651,7 +1651,7 @@ ul {
     04. Sticky Menu
 ---------------------------------------*/
 .menu-sticky.sticky {
-  background: #111111;
+  background-color: #1a4078;
   position: fixed !important;
   top: 0px;
   z-index: 999;
@@ -6902,7 +6902,8 @@ ul {
 }
 .rs-footer .footer-contact-desc {
   margin: 0;
-  background: #222;
+  background:  #074f8f;
+  color: #fff;
   text-align: center;
   padding: 35px;
   position: absolute;
@@ -6910,6 +6911,9 @@ ul {
   right: 0;
   margin: -100px auto 0;
   z-index: 111;
+}
+.footer_logo {
+  color: #fff !important;
 }
 .rs-footer .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner {
   border-left: 1px solid #ffffff;
@@ -6949,6 +6953,7 @@ ul {
   font-size: 15px;
 }
 .rs-footer .footer-top {
+  background-color: #1a4078;
   padding-top: 140px;
 }
 .rs-footer .footer-top .recent-post-widget .post-item {
